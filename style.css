@@ -7,3 +7,26 @@ body {
   padding: 0;
   text-align: center;
 }
+  header {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20 px;
+}
+
+.logo {
+  width: 100 px;
+}
+
+section {
+  padding: 20 px;
+  background: white;
+  margin: 20 px;
+border-radius: 8 px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10 px;
+}
