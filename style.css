@@ -3,56 +3,56 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient (135 deg, #667eea 0 %, #764ba2 100 %);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100 vh;
     overflow: hidden;
 }
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    max-width: 500px;
-    animation: fadeIn 1s ease-in-out;
+    background: rgba (255, 255, 255, 0.1);
+    backdrop-filter: blur (10 px);
+    border-radius: 20 px;
+    padding: 40 px;
+    box-shadow: 0 8 px 32 px rgba (0, 0, 0, 0.3);
+    max-width: 500 px;
+    animation: fadeIn 1 s ease-in-out;
 }
 
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.5 em;
+    margin-bottom: 10 px;
+    text-shadow: 0 2 px 4 px rgba (0, 0, 0, 0.5);
 }
 
 p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
+    font-size: 1.2 em;
+    margin-bottom: 30 px;
     opacity: 0.9;
 }
 
 .button {
     display: inline-block;
-    padding: 15px 30px;
-    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    padding: 15 px 30 px;
+    background: linear-gradient (45 deg, #ff6b6b, #feca57);
     color: white;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 50 px;
     font-weight: bold;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3 s ease, box-shadow 0.3 s ease;
+    box-shadow: 0 4 px 15 px rgba (0, 0, 0, 0.2);
 }
 
 .button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transform: translateY (-5 px);
+    box-shadow: 0 8 px 25 px rgba (0, 0, 0, 0.3);
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; transform: translateY (20 px); }
+    to { opacity: 1; transform: translateY (0); }
 }
