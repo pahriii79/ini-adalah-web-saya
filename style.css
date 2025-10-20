@@ -22,7 +22,8 @@ section {
   padding: 20 px;
   background: white;
   margin: 20 px;
-border-radius: 8 px;
+  border-radius: 8 px;
+  color: black;
 }
 footer {
   background: #222;
