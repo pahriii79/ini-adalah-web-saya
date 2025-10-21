@@ -21,7 +21,7 @@ header {
     backdrop-filter: blur (15 px);
     box-shadow: 0 4 px 20 px rgba (0, 0, 0, 0.1);
     z-index: 1000;
-    transition: background 0.3s ease;
+    transition: background 0.3 s ease; 
 }
 
 nav {
@@ -145,46 +145,46 @@ nav ul li a:hover {
 
 .service-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat (auto-fit, minmax (300 px, 1 fr));
+    gap: 30 px;
 }
 
 .service-card {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba (255, 255, 255, 0.9);
+    backdrop-filter: blur (10 px);
+    padding: 30 px;
+    border-radius: 15 px;
+    box-shadow: 0 8 px 25 px rgba (0, 0, 0, 0.1);
+    transition: transform 0.3 s ease, box-shadow 0.3 s ease;
 }
 
 .service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    transform: translateY (-10 px);
+    box-shadow: 0 15 px 40 px rgba (0, 0, 0, 0.2);
 }
 
 .service-card h3 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
+    font-size: 1.5 em;
+    margin-bottom: 15 px;
     color: #f5576c;
 }
 
 
 footer {
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
+    padding: 20 px;
+    background: rgba (0, 0, 0, 0.8);
     color: white;
     text-align: center;
 }
 
 /* Animasi */
 @keyframes slideIn {
-    from { opacity: 0; transform: translateY (50p x); }
+    from { opacity: 0; transform: translateY (50 p x); }
     to { opacity: 1; transform: translateY (0); }
 }
 
 /* Responsif */
-@media (max-width: 768px) {
+@media (max-width: 768 px) {
     nav {
         flex-direction: column;
         padding: 20 px;
@@ -197,6 +197,6 @@ footer {
         font-size: 2.5 em;
     }
     .service-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1 fr;
     }
 }
