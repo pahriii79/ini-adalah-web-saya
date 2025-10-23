@@ -352,58 +352,6 @@ h2 {
     }
 }
 
-/* Visi & Misi Styling */
-.visi-misi {
-    margin: 2rem 0;
-    padding: 1.5rem;
-    background: rgba(0, 123, 255, 0.05);
-    border-left: 4px solid #007bff;
-    border-radius: 5px;
-}
-
-.visi-misi h3 {
-    color: #007bff;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.visi-misi h3 i {
-    font-size: 1.2rem;
-}
-
-.visi-text {
-    font-size: 1.1rem;
-    font-style: italic;
-    color: #555;
-    margin-bottom: 0;
-}
-
-.misi-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.misi-list li {
-    margin-bottom: 0.8rem;
-    padding-left: 1.5rem;
-    position: relative;
-    color: #333;
-}
-
-.misi-list li::before {
-    content: "\f058"; /* Font Awesome checkmark */
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    left: 0;
-    color: #007bff;
-    font-size: 0.8rem;
-}
-
-
 header {
   text-align: center;
   padding: 30px;
